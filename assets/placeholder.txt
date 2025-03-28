@@ -1,0 +1,31 @@
+This directory will contain game assets like images and sounds.
+
+Folder structure:
+- assets/
+  - images/
+    - hitcircle.png
+    - hitcircle-overlay.png
+    - approachcircle.png
+    - cursor.png
+    - cursor-trail.png
+    - slider-body.png
+    - slider-ball.png
+    - spinner-background.png
+    - spinner-circle.png
+    - spinner-meter.png
+  - sounds/
+    - normal-hit.wav
+    - whistle.wav
+    - finish.wav
+    - clap.wav
+    - combobreak.wav
+    - perfect-hit.wav
+    - good-hit.wav
+    - okay-hit.wav
+    - miss.wav
+  - songs/
+    - sample1.mp3
+    - sample2.mp3
+    - sample3.mp3
+
+Note: This is a placeholder file. In a real implementation, these files would be actual assets.

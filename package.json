@@ -1,0 +1,18 @@
+{
+  "name": "traesu",
+  "version": "1.0.0",
+  "description": "A modern osu! Standard game mode clone",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^7.3.2",
+    "howler": "^2.2.4"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

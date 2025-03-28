@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traesu - osu! Clone</title>
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="loading-screen" class="screen active">
+      <h1>Traesu</h1>
+      <p>Loading...</p>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+    
+    <div id="menu-screen" class="screen">
+      <h1>Traesu</h1>
+      <div class="menu-buttons">
+        <button id="play-button">Play</button>
+        <button id="options-button">Options</button>
+      </div>
+    </div>
+    
+    <div id="beatmap-select-screen" class="screen">
+      <h2>Select Beatmap</h2>
+      <div id="beatmap-list"></div>
+      <button id="back-to-menu">Back</button>
+    </div>
+    
+    <div id="gameplay-screen" class="screen">
+      <div id="game-canvas-container">
+        <canvas id="game-canvas"></canvas>
+      </div>
+      <div id="hud">
+        <div id="score">Score: 0</div>
+        <div id="combo">Combo: 0x</div>
+        <div id="accuracy">Accuracy: 100%</div>
+        <div id="health-bar">
+          <div id="health"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="result-screen" class="screen">
+      <h2>Results</h2>
+      <div id="result-stats">
+        <div>Score: <span id="final-score">0</span></div>
+        <div>Max Combo: <span id="max-combo">0</span></div>
+        <div>Accuracy: <span id="final-accuracy">0%</span></div>
+        <div id="hit-stats">
+          <div>Perfect: <span id="perfect-hits">0</span></div>
+          <div>Good: <span id="good-hits">0</span></div>
+          <div>Okay: <span id="okay-hits">0</span></div>
+          <div>Miss: <span id="misses">0</span></div>
+        </div>
+      </div>
+      <button id="retry-button">Retry</button>
+      <button id="back-to-select">Back to Select</button>
+    </div>
+  </div>
+  
+  <script type="module" src="src/index.js"></script>
+</body>
+</html>
