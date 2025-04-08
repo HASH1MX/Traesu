@@ -10,6 +10,18 @@ osu! Standard (also known as osu!standard or osu!) is the original game mode of 
 - **Following sliders**: Click and hold/drag along a predefined path
 - **Spinning spinners**: Rotate around a central point as quickly as possible
 
+- - **Hitting circles**: Click or tap circles as they appear on screen when the shrinking approach circle reaches the hitcircle's border
+- **Following sliders**: Click and hold/drag along a predefined path
+- **Spinning spinners**: Rotate around a central point as quickly as possible
+
+- - **Hitting circles**: Click or tap circles as they appear on screen when the shrinking approach circle reaches the hitcircle's border
+- **Following sliders**: Click and hold/drag along a predefined path
+- **Spinning spinners**: Rotate around a central point as quickly as possible
+
+- - **Hitting circles**: Click or tap circles as they appear on screen when the shrinking approach circle reaches the hitcircle's border
+- **Following sliders**: Click and hold/drag along a predefined path
+- **Spinning spinners**: Rotate around a central point as quickly as possible
+
 Scoring in osu! Standard is based on accuracy, combo multipliers, and hit judgments (300, 100, 50, or miss). Players aim to achieve the highest possible score while maintaining accuracy throughout the beatmap.
 
 ## Features
