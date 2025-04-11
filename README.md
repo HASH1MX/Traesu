@@ -1,6 +1,6 @@
 # Traesu Project
 
-## Overview
+## Overview ( THIS PROJECT IS IN MAINTENANCE)
 Traesu is a modern application designed to provide an enhanced experience for osu! Standard game mode players. This project aims to provide users with tools and features to improve their gameplay, track performance, and enjoy the rhythm game to its fullest.
 
 ## About osu! Standard Game Mode
